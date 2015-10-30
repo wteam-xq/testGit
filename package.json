@@ -1,0 +1,26 @@
+{
+  "name": "testgit",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "gulpfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wteam-xq/testGit.git"
+  },
+  "author": "wteam-xq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wteam-xq/testGit/issues"
+  },
+  "homepage": "https://github.com/wteam-xq/testGit#readme"
+}
