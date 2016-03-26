@@ -6,6 +6,6 @@ new File 2
 * `git commit -m`
 	* Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenated as separate paragraphs.
 
-* git commit -a -m 将 **工作区间** 以及 **缓存区** 代码放入 **本地仓库**（不包括**工作区间**新建的文件）
-	* git commit -a (不允许commit中没 -m 指令，git 要求提交代码到 本地仓库必须填写 注释)
-* git add -A 将所有 **工作区间** 代码放入 **缓存区间**（包括新建的文件）
+* git commit -a -m 将 **工作区** 以及 **缓存区** 代码放入 **本地仓库**（不包括**工作区**新建的文件）
+	* git commit -a (不允许commit中没 -m 指令，git 要求提交代码到 **本地仓库** 必须填写 注释)
+* git add -A 将所有 **工作区** 代码放入 **缓存区**（包括**新建**的文件）
