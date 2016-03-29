@@ -6,5 +6,8 @@
 
 
 # 参考文档：
-* [git merge 详细解释](http://blog.csdn.net/wh_19910525/article/details/7554489)
+* [git merge 详细解释](http://blog.csdn.net/wh_19910525/article/details/7554489) 
+
 > 如果你想让"mywork"分支历史看起来像没有经过任何合并一样，你也许可以用 `git rebase`
+
+* 再次改动文件, 接下来就将之前文件覆盖了；
