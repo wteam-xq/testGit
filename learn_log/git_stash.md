@@ -1,5 +1,3 @@
-new file 1
-
 * `git stash` 指令理解
 * [参考资料](http://my.oschina.net/u/2298961/blog/381728)
 * `git stash`操作之后会将 **工作区间** **缓存区间** 改动放到 **工作现场**
