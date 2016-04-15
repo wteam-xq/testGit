@@ -14,8 +14,10 @@
 * git stash list
 * git push origin newBranch:newBranch(推送分支到远程分支， ’newBranch’为本地分支，线上没有的那种)
 
-* 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(果然是木有！) 
+* 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(木有！) 
 
 > if you wish to set tracking information for this branch you can do so with:
 
 >    git branch --set-upstream-to=origin/<branch> testBranch
+
+* 本地、远程两同名分支， 如果本地首次提交远程 git push 到该同名分支后， 这两分支是否就建立了关联？
