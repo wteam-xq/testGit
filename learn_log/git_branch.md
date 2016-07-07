@@ -10,9 +10,6 @@
 * git merge dev 将当前分支（一般是master主分支）与叫“dev”分支的代码合并
 * git branch -d dev 将叫“dev”的分支删除掉
 * git log —graph  查看分支合并情况（图方式显示）
-* git 显示 缓存区列表
-* git stash list
-* git push origin newBranch:newBranch(推送分支到远程分支， ’newBranch’为本地分支，线上没有的那种)
 
 * 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(木有！) 
 

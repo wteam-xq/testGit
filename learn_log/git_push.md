@@ -4,3 +4,11 @@
 * `git push origin`
 * 上面命令表示，将当前分支推送到origin主机的对应分支。
 
+## 关于 git stash 常用的指令： 
+* git push 
+	* 推送代码至与当前分支关联的远程分支
+* git push origin remoteBranchName
+	* 推送代码至指定的远程分支
+* git push origin newBranch:newBranch
+	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支，线上没有的那种
+

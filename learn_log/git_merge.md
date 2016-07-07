@@ -1,3 +1,6 @@
+* [参考资料](https://git-scm.com/docs/git-merge)
+* 很少直接使用该指令， 因为其往往在其他指令中包括， 例如： git pull;
+
 # git merge 工作中碰到的问题重现：
 * 1.分支testMerge 是基于master的分支；此时将master的代码备份下；
 * 2.分支testMerge 分别修改两次， 然后改完都合并到master;master 提交该改动； 
