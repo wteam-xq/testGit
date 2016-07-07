@@ -11,14 +11,22 @@
 
 * git stash
 * git stash save "这些是注释啦"
-	* 新增安全工作区（将当前的所有改动全部放入安全工作区）
+	* 新增安全工作区（将当前的所有改动全部放入安全工作区）, `git stash`的默认注释为当前分支上一次commit的注释
+
 * git stash list 
 	* 显示安全工作区列表
+
 * git stash clear
 	* 清空安全工作区列表（慎操作！）
+
+* git stash drop
+* git stash drop stash@{0}
+	* 删除某一个安全工作区，默认删除最新安全工作区
+
 * git stash pop
-* git stash pop stash@{1}
-	* 恢复安全工作区的代码（并删除），`git stash pop` = `git stash pop stash@{0}`，
+* git stash pop --index stash@{1}
+	* 恢复安全工作区的代码（并删除），`git stash pop` = `git stash pop --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区;
+
 * git stash apply
-* git stash apply stash@{1}
-	* 恢复安全工作区的代码（不删除），`git stash apply` = `git stash apply stash@{0}`
+* git stash apply --index stash@{1}
+	* 恢复安全工作区的代码（不删除），`git stash apply` = `git stash apply --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区
