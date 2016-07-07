@@ -11,3 +11,10 @@
 > The --set-upstream flag is deprecated and will be removed. Consider using --track or --set-upstream-to
 
 * `--set-upstream` 参数(git branch的参数)已被git无情抛弃，不久的将来会被git扫出家门。建议使用`--track` 或者`--set-upstream-to`代替;
+
+
+## 关于 git pull 常用的指令： 
+* git pull
+	** 拉取与当前分支关联的远程分支代码（并自动合并当前改动的代码）
+* git pull origin xxx
+	** 拉取指定远程分支代码（并自动合并当前改动的代码）
