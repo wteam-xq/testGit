@@ -9,6 +9,7 @@
 * git checkout dev  切换到“dev”分支
 * git merge dev 将当前分支（一般是master主分支）与叫“dev”分支的代码合并
 * git branch -d dev 将叫“dev”的分支删除掉
+* git branch -D dev 将叫“dev”的分支删除掉（强制删除，即使该删除的分支有未提交代码）
 * git log —graph  查看分支合并情况（图方式显示）
 
 * 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(木有！) 
