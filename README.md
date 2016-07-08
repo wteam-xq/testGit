@@ -2,7 +2,6 @@
 
 * 本工程主要用于测试、总结 git 的各种用法！
 
-* 但工程中的学习日志： learn_log文件夹内容或许有用！
 ### [git_add.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_add.md) 
 * git 添加改动至暂存区的小总结
 
