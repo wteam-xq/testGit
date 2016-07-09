@@ -1,5 +1,5 @@
 * [参考资料](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
-* [参考资料](https://git-scm.com/docs/git-commit)
+* [参考资料2](https://git-scm.com/docs/git-commit)
 * `git commit -am` 相当于`git commit -a -m`
 * `git commit -a`
 	* Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.

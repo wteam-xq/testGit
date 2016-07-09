@@ -1,6 +1,5 @@
 * [参考资料](https://git-scm.com/docs/git-remote)
 
-
 ## 关于 git remote 常用的指令：
 * git remote rm origin
 * git remote remove origin
