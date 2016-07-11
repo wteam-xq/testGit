@@ -4,6 +4,7 @@
 
 * 本地、远程两同名分支， 如果本地首次提交 git push 到该同名分支后， 这两分支是否就建立了关联？(没有关联！)
 
+# git branch 指令
 * 如果希望本地分支与远程分支建立关联可使用 `git branch --set-upstream-to=origin/remoteBranchName localBranchName` 指令
 > if you wish to set tracking information for this branch you can do so with:
 
@@ -11,9 +12,9 @@
 
 ## 关于 git branch 常用的指令： 
 * git branch 
-	* 查看工程的分支列表
+	* 查看工程的分支列表（本地分支）
 * git branch -va 
-	* 可以查看远程分支列表
+	* 查看远程分支列表
 * git checkout  remotes/origin/master 
 	* 切换到远程的 master 分支
 * git checkout -b dev
