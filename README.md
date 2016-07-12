@@ -30,6 +30,9 @@
 ### [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md)   
 * git 合并分支代码小总结
 
+### [git_log.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md) 
+* git 查看commit日志小总结
+
 ### [git_reset.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 
 * git 代码撤销（回退）小总结(移动HEAD木有生成新的commit)
 
