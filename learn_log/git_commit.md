@@ -8,7 +8,7 @@
 * `git commit -m`
 	* Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenated as separate paragraphs.
 	* 该指令将暂存区的改动放入本地仓库（当前分支），如果使用了多个“-m”则会将该提交分成多个段落显示；例如： 使用了`git commit -m "格式统一化" -m "多个注释会怎样？"` gitHub上会这样显示：
-	* ![多行-m的截图](https://github.com/wteam-xq/testGit/tree/master/learn_log/log_img/git_commit_s1.png)
+	* ![多行-m的截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_commit_s1.png)
 
 
 * git commit -a -m 将 **工作区** 以及 **暂存区** 代码放入 **本地仓库**（不包括**工作区**新建的文件）
