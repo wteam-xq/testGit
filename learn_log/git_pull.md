@@ -20,3 +20,6 @@
 	
 * git pull origin xxx
 	* 拉取指定远程分支代码（并自动合并当前改动的代码）
+
+* git pull -p
+	* 更新远程分支信息，本指令相当于`git fetch --prune origin` 或 `git fetch -p`例如：远程删除或新增了新的分支， 本地git branch -va因为缓存看到的并不是最新分支信息，用该指令就能与远程分支列表保持一致；

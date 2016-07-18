@@ -14,7 +14,7 @@
 * git branch 
 	* 查看工程的分支列表（本地分支）
 * git branch -va 
-	* 查看远程分支列表
+	* 查看远程分支列表（查看前建议 使用 git pull -p 更新下远程分支信息）
 * git checkout  remotes/origin/master 
 	* 切换到远程的 master 分支
 * git checkout -b dev
