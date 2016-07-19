@@ -15,3 +15,6 @@
 * git push origin newBranch:newBranch
 	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支，线上没有的那种
 
+* git push origin --delete [branch-name]
+  * 删除远程分支
+
