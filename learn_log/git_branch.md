@@ -5,10 +5,15 @@
 * 本地、远程两同名分支， 如果本地首次提交 git push 到该同名分支后， 这两分支是否就建立了关联？(没有关联！)
 
 # git branch 指令
-* 如果希望本地分支与远程分支建立关联可使用 `git branch --set-upstream-to=origin/remoteBranchName localBranchName` 指令
 > if you wish to set tracking information for this branch you can do so with:
 
 > git branch --set-upstream-to=origin/<branch> localBranchName
+
+* 如果希望本地分支与远程分支建立关联可使用:
+```
+git branch --set-upstream-to=origin/remoteBranchName localBranchName`
+
+```
 
 ## 关于 git branch 常用的指令： 
 * git branch 
@@ -34,7 +39,7 @@
 	* 将叫“dev”的分支删除掉（强制删除，即使该删除的分支有未提交代码）
 * git branch -dr [origin/branch]
   * 相当于 `git branch -r -d origin/branch`删除的只是本地的缓存分支（`git branch -va`查看的那个），`git pull -p`可恢复；
- * git push origin --delete [branch-name]
+* git push origin --delete [branch-name]
  	* 删除指定的远程分支（真正删除远程分支，需要当前账号的权限操作）
 
 * git log —graph  
