@@ -9,3 +9,6 @@
 
 * git fetch branch_name
 * 更新指定远程分支代码到本地
+
+## 相关指令：
+* [git pull](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_pull.md)

@@ -28,3 +28,5 @@
 * git checkout -b dev
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；
 
+## 相关指令：
+* [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md)

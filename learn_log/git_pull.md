@@ -23,3 +23,6 @@
 
 * git pull -p
 	* 更新远程分支信息，本指令相当于`git fetch --prune origin` 或 `git fetch -p`例如：远程删除或新增了新的分支， 本地git branch -va因为缓存看到的并不是最新分支信息，用该指令就能与远程分支列表保持一致；
+
+## 相关指令：
+* [git fetch](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)

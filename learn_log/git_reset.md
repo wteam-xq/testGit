@@ -7,9 +7,11 @@
 > 3. git reset 是把HEAD向后移动了一下，而git revert是HEAD继续前进，只是新的commit的内容和要revert的内容正好相反，能够抵消要被revert的内容。
 
 * git reset 的3种方式：
-> 1.git reset –mixed：此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息;
-> 2.git reset –soft：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可;
-> 3.git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容；
+> 1.git reset –mixed：此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息; 
+
+> 2.git reset –soft：回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit即可; 
+
+> 3.git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容；(最常用) 
 
 
 ## 关于 git reset 常用的指令： 
@@ -18,15 +20,20 @@
 * git reset HEAD .
 	* 将**本地仓库**的所有文件（当前目录以及子目录）覆盖**暂存区的**所有文件（注意本地工作区间的文件不会变化）；
 
-* git reset --hard HEAD^
+* git reset -- hard HEAD^
 	* 本地工作区间代码回到上一次版本；
-* git reset --hard HEAD^^
+* git reset -- hard HEAD^^
 	* 本地工作区间代码回到上上次版本；
-* git reset --hard HEAD~10
+* git reset -- hard HEAD~10
 	* 本地区间代码回到前10个的版本；
 
-* git reset --hard d362816
+* git reset -- hard d362816
 	* 本地区间代码回退到指定版本（d362816 为commit id, 可通过[git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clone.md) 查到）
-* git reset --hard origin/master
+* git reset -- hard origin/master
 	* 本地工作区间代码回退到远程版本(master为分支名)
 
+
+## 相关指令：
+* [git checkout](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md)
+
+* [git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md)
