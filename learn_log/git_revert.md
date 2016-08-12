@@ -8,4 +8,4 @@
 
 
 ## 相关指令：
-* [git revert与 git reset的区别](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md)
+* [git revert与 git reset的区别](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）指令： 我跟`git revert`不止长的像，实现的功能也差不多！

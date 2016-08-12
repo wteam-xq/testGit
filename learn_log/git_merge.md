@@ -11,3 +11,6 @@
 
 * 怎样让步骤4代码有变化？ 查看了下git merge --help 也没发现合适的指令;
 * 总结：操作文件尽量别脱离git(例如上述步骤3，完全可以用git指令实现相同效果)；
+
+## 相关指令：
+[git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   分支相关操作指令： 跟`git merge`有关的也就我这个指令吧？

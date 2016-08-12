@@ -45,4 +45,10 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 * git log —graph  
 	* 查看分支合并情况（图方式显示）
 
+## 相关指令：
+* [git_checkout.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md)  切换代码分支指令： 使用git分支必定会用到的指令！ 
+
+* [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md) 合并分支指令：注意合并的是**本地分支** 代码;
+
+* [git_pull.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_pull.md) 更新、合并指令： 该指令能合并**远程分支**的代码哟！
 

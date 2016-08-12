@@ -10,4 +10,4 @@
 	* 查看本地仓库所有改变列表（git reset的每次操作都会记录在该列表）
 
 ## 相关指令：
-* [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md)
+* [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）指令： `git log`的好基友！

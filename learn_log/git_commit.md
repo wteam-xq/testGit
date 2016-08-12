@@ -18,3 +18,8 @@
 
 * git commit -m "注释内容"
   * 将 **暂存区** 代码放入 **本地仓库**
+
+ ## 相关指令：
+ * [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 提交代码到**本地仓库**后， 用我可以查看有多少个commit等待提交到远程哦！
+
+ * [git_push.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_push.md) 提交代码至远程仓库指令： `git commit`后， 接下来就是我`git push`出场了！

@@ -44,3 +44,6 @@
 
 ### [git_remote.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_remote.md)   
 * git 本地仓库与远程仓库连接操作小总结
+
+### [git_fetch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)   
+* git 更新代码（不合并本地修改）小总结

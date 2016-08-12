@@ -13,3 +13,9 @@
 	* 提交**当前路径**下的所有文件到暂存区(包括子目录，但不包括父级以上目录)
 * git add -A
 	* 最常用的git 指令， 提交所有 新增、删除、修改到暂存区(包括当前工程所有的修改)
+
+
+## 相关指令：
+* [git_commit.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_commit.md) 提交代码（到本地仓库）： 代码存入**暂存区**后，下一操作一般是存入**本地仓库**； 
+
+* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md) 查看当前代码状态： 方便查看`git add`前后的代码变化；
