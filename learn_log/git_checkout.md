@@ -29,4 +29,4 @@
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；
 
 ## 相关指令：
-* [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）： 配合`git log`，`git reset`回退实用性可以完爆`git checkout`;
+* [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）： 配合`git log`，我的回退实用性可以完爆`git checkout`;

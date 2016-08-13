@@ -34,6 +34,6 @@
 
 
 ## 相关指令：
-* [git checkout](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md)
+* [git checkout](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md) 切换分支、切换文件指令： 我也可以回退代码哦。（前提是有使用过`git add`将改动放入**暂存区**）
 
-* [git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md)
+* [git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md) 查看commit日志指令： `git reset`好基友！

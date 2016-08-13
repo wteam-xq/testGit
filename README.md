@@ -43,7 +43,10 @@
 * git 拉取线上代码 小总结
 
 ### [git_remote.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_remote.md)   
-* git 本地仓库与远程仓库连接操作小总结
+* git 本地仓库与远程仓库连接配置小总结
+
+### [git_config.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_config.md)   
+* git 配置文件小总结
 
 ### [git_fetch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)   
 * git 更新代码（不合并本地修改）小总结
