@@ -25,4 +25,6 @@
 	* 更新远程分支信息，本指令相当于`git fetch --prune origin` 或 `git fetch -p`例如：远程删除或新增了新的分支， 本地git branch -va因为缓存看到的并不是最新分支信息，用该指令就能与远程分支列表保持一致；
 
 ## 相关指令：
-* [git fetch](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)  更新代码（不合并本地修改）指令： 虽然大师说[少用git pull多用git fetch](http://www.oschina.net/translate/git-fetch-and-merge)， 实际上大家还是只用`git pull`忘了有我这个`git fetch`;
+* [git fetch](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)  更新代码（不合并本地修改）指令： 虽然大师说[少用git pull多用git fetch](http://www.oschina.net/translate/git-fetch-and-merge)， 实际上大家还是只用`git pull`忘了有我这个`git fetch`; 
+
+* [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md) 合并分支指令：`git pull`是领导， 活儿都是我们干的！诶！ 这评论区是匿名的吧？

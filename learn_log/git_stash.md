@@ -31,3 +31,7 @@
 * git stash apply
 * git stash apply --index stash@{1}
 	* 恢复安全工作区的代码（不删除），`git stash apply` = `git stash apply --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区
+
+
+## 相关指令：
+* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认放入 **安全工作区** 是否成功。
