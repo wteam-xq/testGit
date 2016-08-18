@@ -7,7 +7,7 @@
 	* `—-global`  当前git用户的配置文件（全局级config）
 	* `—-system`  git安装目录下的配置文件（系统级config）
 
-## 关于 git config 常用的指令：
+## git config 常用指令：
 * git config --global user.name “lubin” 
 	* 设置本地git的用户名（不加最后的名字参数，则为查看本地git用户名） 
 

@@ -14,26 +14,30 @@
 > 3.git reset –hard：彻底回退到某个版本，本地的源码也会变为上一个版本的内容；(最常用) 
 
 
-## 关于 git reset 常用的指令： 
+## git reset 常用指令： 
 * git reset HEAD a.txt
 	* 将**本地仓库**的 a.txt 覆盖**暂存区的**a.txt（注意本地工作区间的a.txt不会变化）；
+
 * git reset HEAD .
 	* 将**本地仓库**的所有文件（当前目录以及子目录）覆盖**暂存区的**所有文件（注意本地工作区间的文件不会变化）；
 
 * git reset -- hard HEAD^
 	* 本地工作区间代码回到上一次版本；
+
 * git reset -- hard HEAD^^
 	* 本地工作区间代码回到上上次版本；
+	
 * git reset -- hard HEAD~10
 	* 本地区间代码回到前10个的版本；
 
 * git reset -- hard d362816
 	* 本地区间代码回退到指定版本（d362816 为commit id, 可通过[git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clone.md) 查到）
+
 * git reset -- hard origin/master
 	* 本地工作区间代码回退到远程版本(master为分支名)
 
 
 ## 相关指令：
-* [git checkout](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md) 切换分支、切换文件指令： 我也可以回退代码哦。（前提是有使用过`git add`将改动放入**暂存区**）
+* [git checkout](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md) 切换分支、切换文件指令： 我也可以回退代码哦。
 
 * [git log](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md) 查看commit日志指令： `git reset`好基友！

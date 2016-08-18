@@ -6,7 +6,7 @@
 	* 1. 回退文件；（从暂存区、从本地仓库）
 	* 2. 切换分支（包括新建、切换）；
 
-## 关于 git checkout 常用的指令： 
+## git checkout 常用指令： 
 * git checkout -- a.txt
 	* **暂存区** 中的 a.txt文件 覆盖 工作区间的 a.txt，使用时注意路径；
 

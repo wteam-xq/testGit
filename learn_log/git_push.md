@@ -5,7 +5,7 @@
 * `git push origin`
 * 上面命令表示，将当前分支推送到origin主机的对应分支。
 
-## 关于 git stash 常用的指令： 
+## git stash 常用指令： 
 * git push 
 	* 推送代码至与当前分支关联的远程分支
 
