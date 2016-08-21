@@ -1,8 +1,8 @@
-### GIT 事件测试工程
+### GIT 的日常
 
 * 本工程主要用于测试、总结 git 的各种用法；
-* 实际开发中使用到的git指令集合：(个人使用频率排序)
 
+## 实际开发中使用到的git指令集合：(个人使用频率排序)
 ### [git_pull.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_pull.md) 
 * git 更新合并代码小总结
 
@@ -50,3 +50,14 @@
 
 ### [git_fetch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)   
 * git 更新代码（不合并本地修改）小总结
+
+
+## git 其他：
+### [git_ignore.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_ignore.md)   
+* git 忽略文件配置 小总结
+
+### [git_SSH.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md)   
+* git 配置SSH小总结
+
+
+

@@ -26,4 +26,4 @@ $ git clone rsync://example.com/path/to/repo.git/
 	* 但以后使用`git push`指令都得输入账号密码；
 
 ## 相关指令：
-* [git SSH配置](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md)  别嫌麻烦， 配置了我接下来的工作会更轻松！
+* [git SSH配置](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md) 配置git SSH： 别嫌麻烦， 配置了我接下来的工作会更轻松！
