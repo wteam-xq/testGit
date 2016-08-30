@@ -1,4 +1,4 @@
-### GIT 的日常
+### GIT 日常
 
 * 本工程主要用于测试、总结 git 的各种用法；
 
@@ -50,6 +50,9 @@
 
 ### [git_fetch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)   
 * git 更新代码（不合并本地修改）小总结
+
+### [git_tag.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_tag.md)   
+* git 代码标签 小总结
 
 
 ## git 其他：

@@ -18,6 +18,8 @@
 * git add -A
 	* 最常用的git 指令， 提交所有 新增、删除、修改到暂存区(包括子目录，且包括父级以上目录)
 
+* PS：当合并代码产生冲突时，手动解决完冲突后，通过 git add 告诉git已解决完冲突，否则无法执行其他git指令；
+
 
 ## 相关指令：
 * [git_commit.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_commit.md) 提交代码（到本地仓库）： 代码存入**暂存区**后，下一操作一般是存入**本地仓库**； 
