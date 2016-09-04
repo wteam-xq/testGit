@@ -23,7 +23,7 @@ $ git clone rsync://example.com/path/to/repo.git/
 
 * git clone https://github.com/wteam-xq/testGit.git
 	* 此方式拷贝项目不需密码；
-	* 但以后使用`git push`指令都得输入账号密码；
+	* 但以后使用`git pull` 、`git push`指令都得输入账号密码；
 
 ## 相关指令：
 * [git SSH配置](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md) 配置git SSH： 别嫌麻烦， 配置了我接下来的工作会更轻松！

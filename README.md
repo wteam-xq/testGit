@@ -54,6 +54,9 @@
 ### [git_tag.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_tag.md)   
 * git 代码标签 小总结
 
+### [git_clean.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clean.md)   
+* git 清除未跟踪代码、文件夹 小总结
+
 
 ## git 其他：
 ### [git_ignore.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_ignore.md)   
@@ -62,7 +65,8 @@
 ### [git_SSH.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md)   
 * git 配置SSH小总结
 
-### [git 上线自动化部署学习日记](https://github.com/wteam-xq/testGit/blob/master/practice_log)
+### [git 上线自动化部署](https://github.com/wteam-xq/testGit/blob/master/practice_log)
+* git 进阶 自动化上线研究
 
 
 
