@@ -36,3 +36,22 @@
 
 ## 相关指令：
 * [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 我是万能的检测器！
+
+## 实践问题：
+* 利用.gitignore过滤文件，如编译过程中的中间文件，等等，这些文件不需要被追踪管理。
+
+* 现象：
+
+* 在.gitignore添加file1文件，以过滤该文件，但是通过git status查看仍显示file1文件的状态。
+
+* 原因：
+
+* 在git库中已存在了这个文件，之前push提交过该文件。
+
+* .gitignore文件只对还没有加入版本管理的文件起作用，如果之前已经用git把这些文件纳入了版本库，就不起作用了
+
+* 解决：
+
+* 需要[在git库中删除该文件](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758392816224cafd33c44b4451887cc941e6716805c000)，并更新。
+
+* 然后再次git status查看状态，file1文件不再显示状态。
