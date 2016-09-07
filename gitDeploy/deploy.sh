@@ -1,15 +1,12 @@
-#!/bin/bash
-WEB_PATH='/var/www/dev.lovelucy.info'
-WEB_USER='lovelucydev'
-WEB_USERGROUP='lovelucydev'
+# 打开指定的工程目录
+WEB_PATH='gitTmp/testDemo'
  
 echo "Start deployment"
+cd ~
 cd $WEB_PATH
 echo "pulling source code..."
-git reset --hard origin/master
-git clean -f
-git pull
+# 保存工作区中的代码
+git add -A && git stash save "save unfinished code..."
 git checkout master
-echo "changing permissions..."
-chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
-echo "Finished."
+git reset --hard origin/master
+git pull
