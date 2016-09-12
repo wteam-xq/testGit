@@ -1,4 +1,5 @@
 var http = require('http'),
+    spawn = require('child_process').spawn,
     url = require('url'),
     querystring = require('querystring'),
     createHandler = require('github-webhook-handler'),
@@ -6,12 +7,15 @@ var http = require('http'),
 
 // 上面的 secret 保持和 GitHub 后台设置的一致
 function run_cmd(cmd, args, callback) {
-  var spawn = require('child_process').spawn;
   var child = spawn(cmd, args);
   var resp = "";
  
-  child.stdout.on('data', function(buffer) { resp += buffer.toString(); });
-  child.stdout.on('end', function() { callback (resp) });
+  child.stdout.on('data', function(buffer) { 
+    resp += buffer.toString(); 
+  });
+  child.stdout.on('end', function() { 
+    callback (resp) 
+  });
 }
  
 http.createServer(function (req, res) {
