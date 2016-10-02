@@ -11,26 +11,26 @@
 ## git stash 常用指令： 
 * git stash
 * git stash save "这些是注释啦"
-	* 新增安全工作区（将当前的所有改动全部放入安全工作区）, `git stash`的默认注释为当前分支上一次commit的注释
+	* 新增工作现场（将当前的所有改动全部放入工作现场）, `git stash`的默认注释为当前分支上一次commit的注释
 
 * git stash list 
-	* 显示安全工作区列表
+	* 显示工作现场列表
 
 * git stash clear
-	* 清空安全工作区列表（慎操作！）
+	* 清空工作现场列表（慎操作！）
 
 * git stash drop
 * git stash drop stash@{0}
-	* 删除某一个安全工作区，默认删除最新安全工作区
+	* 删除某一个工作现场，默认删除最新工作现场：`git stash drop` = `git stash drop stash@{0}`
 
 * git stash pop
-* git stash pop --index stash@{1}
-	* 恢复安全工作区的代码（并删除），`git stash pop` = `git stash pop --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区;
+* git stash pop --index stash@{0}
+	* 恢复工作现场的代码（并删除），默认恢复最新工作现场：`git stash pop` = `git stash pop --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区;
 
 * git stash apply
-* git stash apply --index stash@{1}
-	* 恢复安全工作区的代码（不删除），`git stash apply` = `git stash apply --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区
+* git stash apply --index stash@{0}
+	* 恢复工作现场的代码（不删除），默认恢复最新工作现场：`git stash apply` = `git stash apply --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区
 
 
 ## 相关指令：
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认放入 **安全工作区** 是否成功。
+* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认放入 **工作现场** 是否成功。

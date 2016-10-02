@@ -19,7 +19,7 @@
 * git 提交代码至远程仓库小总结
 
 ### [git_stash.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_stash.md)   
-* git 暂存代码至安全工作区小总结
+* git 暂存代码至工作现场小总结
 
 ### [git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   
 * git 的分支相关操作小总结
