@@ -7,7 +7,7 @@
 	* 2. 切换分支（包括新建、切换）；
 
 ## git checkout 常用指令： 
-* git checkout -- a.txt
+* git checkout -- a.txt 
 	* **暂存区** 中的 a.txt文件 覆盖 工作区间的 a.txt，使用时注意路径；
 
 * git checkout -- .
