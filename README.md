@@ -65,7 +65,7 @@
 ### [git_SSH.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md)   
 * git 配置SSH小总结
 
-### [git 上线自动化部署](https://github.com/wteam-xq/testGit/blob/master/practice_log)
+### [git 上线自动化部署](https://github.com/wteam-xq/testGit/blob/master/practice_log.md)
 * git 进阶 自动化上线研究
 
 
