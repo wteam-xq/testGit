@@ -35,9 +35,12 @@ GitLab 或者 BitBucket, 另外还有一个叫： GitCafe的git管理仓库；
 ## 16_09_04 笔记；
 
 ### 参考资料:
-* [github-webhook-handler中间件](https://github.com/rvagg/github-webhook-handler)
-* [Nginx 简单的代理转发配置](http://liuyu.blog.51cto.com/183345/166381/)
-* [Linux 简单安装Nginx](http://www.cnblogs.com/kreo/p/4378086.html)
+* [github-webhook-handler中间件](https://github.com/rvagg/github-webhook-handler) 
+
+* [Nginx 简单的代理转发配置](http://liuyu.blog.51cto.com/183345/166381/) 
+
+* [Linux 简单安装Nginx](http://www.cnblogs.com/kreo/p/4378086.html) 
+
 * [Mac上安装Nginx](http://blog.csdn.net/eagle_naixue/article/details/26063871)
 
 * [gulp-rev-colllector插件介绍](http://blog.csdn.net/hayleyxia/article/details/46969711)
@@ -73,25 +76,31 @@ GitLab 或者 BitBucket, 另外还有一个叫： GitCafe的git管理仓库；
 ## 16_09_07 笔记；
 
 ### 参考资料:
-[mac 安装nginx](http://blog.csdn.net/eagle_naixue/article/details/26063871)
-[mac 安装nginx2](http://blog.csdn.net/ilovesmj/article/details/51549201)
+[mac 安装nginx](http://blog.csdn.net/eagle_naixue/article/details/26063871) 
+
+[mac 安装nginx2](http://blog.csdn.net/ilovesmj/article/details/51549201) 
+
 [mac 配置环境变量](http://elf8848.iteye.com/blog/1582137)
 
 ### 小总结：
 * 注意给deploy.sh 配置权限：`chmod 777 deploy.sh`;
 
 ### 今天完成：
-1.完成nodejs 响应webhook接口；（postman模拟请求）
+1.完成nodejs 响应webhook接口；（postman模拟请求） 
+
 2.mac 配置nginx；(配置nginx环境失败， 下次继续)
 
 ------------------------------
 ## 16_09_13 笔记；
 
 ### 参考资料:
-[mac 入门](http://www.cnblogs.com/TankXiao/p/3247113.html)
-[mac 安装pcre](http://stackoverflow.com/questions/22555561/error-building-fatal-error-pcre-h-no-such-file-or-directory)
-[mac brew安装nginx](http://blog.csdn.net/xiebaochun/article/details/52205875)
-[mac 配置环境变量](http://elf8848.iteye.com/blog/1582137)
+[mac 入门](http://www.cnblogs.com/TankXiao/p/3247113.html) 
+
+[mac 安装pcre](http://stackoverflow.com/questions/22555561/error-building-fatal-error-pcre-h-no-such-file-or-directory) 
+
+[mac brew安装nginx](http://blog.csdn.net/xiebaochun/article/details/52205875) 
+
+[mac 配置环境变量](http://elf8848.iteye.com/blog/1582137) 
 
 ### 小总结：
 * `./configure: error: SSL modules require the OpenSSL library.` 
@@ -116,14 +125,16 @@ sudo nginx
 * 如果要进行配置可以打开/usr/local/etc/nginx/nginx.conf文件进行修改，比如配置域名，端口号等等。
 
 ### 今天完成：
-1.安装nginx；(100%)
+1.安装nginx；(100%) 
+
 2.不同端口请求通过nginx代理共享父域名；
 
 ------------------------------
 ## 16_09_14 笔记；
 
 ### 参考资料:
-[nodejs forever用法简介](http://tcrct.iteye.com/blog/2043644)
+[nodejs forever用法简介](http://tcrct.iteye.com/blog/2043644) 
+
 [forever github](https://github.com/foreverjs/forever)
 
 ### 小总结：
@@ -157,11 +168,15 @@ forever cleanlogs
 ## 16_09_29 笔记；
 
 ### 参考资料:
-[云服务器, 简称:ECS](https://www.aliyun.com/product/ecs?spm=5176.8142029.388261.25.YmiwVn)
-[Linux安装nodejs](http://jingyan.baidu.com/article/f0e83a25a434ac22e4910166.html)
-[Linux安装apache](http://blog.csdn.net/qq_28702545/article/details/52529329)
-[Linux安装Nginx](http://jingyan.baidu.com/article/1974b2898f5eadf4b1f774de.html)
-[Linux安装git](http://jingyan.baidu.com/article/e9fb46e16698687521f766ec.html)
+[云服务器, 简称:ECS](https://www.aliyun.com/product/ecs?spm=5176.8142029.388261.25.YmiwVn) 
+
+[Linux安装nodejs](http://jingyan.baidu.com/article/f0e83a25a434ac22e4910166.html) 
+
+[Linux安装apache](http://blog.csdn.net/qq_28702545/article/details/52529329) 
+
+[Linux安装Nginx](http://jingyan.baidu.com/article/1974b2898f5eadf4b1f774de.html) 
+
+[Linux安装git](http://jingyan.baidu.com/article/e9fb46e16698687521f766ec.html) 
 
 ### 小总结：
 * 国庆完成，自动化部署的Linux实践，具体步骤：
@@ -177,7 +192,8 @@ forever cleanlogs
 ## 16_10_05 笔记；
 
 ### 参考资料:
-[webhooks官方教程](https://developer.github.com/webhooks/)
+[webhooks官方教程](https://developer.github.com/webhooks/) 
+
 [jq ztree插件](http://www.treejs.cn/v3/demo.php#_104)
 
 ### 小总结：
