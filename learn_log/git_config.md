@@ -8,10 +8,10 @@
 	* `—-system`  git安装目录下的配置文件（系统级config）
 
 ## git config 常用指令：
-* git config --global user.name “lubin” 
+* git config --global user.name “wteamxq” 
 	* 设置本地git的用户名（不加最后的名字参数，则为查看本地git用户名） 
 
-* git config --global user.email lubin.z@gmail.com  
+* git config --global user.email 857609086@qq.com 
 	* 设置本地git的邮箱（不加最后邮箱参数，则为查看本地git邮箱）
 
 * git config --list 

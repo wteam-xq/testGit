@@ -1,4 +1,6 @@
 ### git配置公钥（SSH公钥）
+
+## win7系统：
 * [参考资料](http://git-scm.com/book/zh/ch4-3.html)
 
 * 前提： 电脑上已安装git; 
@@ -17,6 +19,64 @@ ssh-keygen -t rsa -C "zhiqiangxiao@sohu-inc.com"
 * 然后到**.ssh**下面将**id_rsa.pub**里的内容复制出来,粘贴到github个人中心的账户设置的ssh key中；
 
 ![粘贴位置截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_ssh_s1.png)
+
+------------------------------
+
+## Linux系统(CentOS 6.4)：
+
+首先运行指令： 
+
+```
+cd ~/.ssh
+ls
+
+```
+
+结果如果是： 
+
+```
+authorized_keys2  id_dsa       known_hosts
+config            id_dsa.pub
+```
+说明系统中已经存在密钥，`id_dsa` 或 `id_rsa` 命名的文件就是了。 
+
+如果结果是啥都没有， 说明系统完全木有密钥！以下指令安装之： 
+
+```
+ssh-keygen
+```
+
+弹出提示， 连续三个回车完成配置(默认配置路径、默认空密码)： 
+
+```
+Enter file in which to save the key (/root/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+```
+
+再次运行指令： 
+
+```
+cd ~/.ssh
+ls
+
+``` 
+
+就能看到生成的两个密钥文件了： 
+
+```
+id_rsa  id_rsa.pub
+```
+
+最后打开`id_rsa.pub`文件，并将其内容复制出来,粘贴到github个人中心的账户设置的ssh key中；
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+![粘贴位置截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_ssh_s1.png)
+
+------------------------------
 
 ## 相关指令：
 * [git_push.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_push.md) 提交代码至远程仓库指令： 配置了SSH使用我就不用输入账号密码了！
