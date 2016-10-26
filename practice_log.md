@@ -172,7 +172,7 @@ forever cleanlogs
 
 [Linux安装nodejs](http://jingyan.baidu.com/article/f0e83a25a434ac22e4910166.html) 
 
-[Linux安装apache](http://blog.csdn.net/qq_28702545/article/details/52529329) 
+[Linux安装apache](http://blog.csdn.net/qq_28702545/article/details/52529329) ,   [CentOS apache配置详解](http://www.cnblogs.com/zgx/archive/2011/09/22/2185261.html)
 
 [Linux安装Nginx](http://jingyan.baidu.com/article/1974b2898f5eadf4b1f774de.html) 
 
