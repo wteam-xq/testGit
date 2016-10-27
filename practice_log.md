@@ -198,3 +198,44 @@ forever cleanlogs
 
 ### 小总结：
 Linux 配置相关日志；
+
+
+## 16_10_26 笔记:
+
+### CentOS小总结：
+* 查看操作系统版本：
+```
+lsb_release -a
+```
+
+### 配置 apache
+* 查看系统是否安装了apache
+```
+rpm -qa httpd
+```
+
+* 如果能看到以下内容：
+```
+httpd-2.2.15-26.el6.centos.i686
+```
+* 说明本系统已经安装了apache
+* /etc/httpd　就是apache的目录
+
+* 重启 apache  服务器：
+```
+service httpd restart
+```
+* 如果修改了配置文件的DocumentRoot,则需要关闭selinux：
+```
+setenforce 0
+```
+
+* 给所有用户访问/root 权限(如果DocumentRoot在/root目录下)
+```
+chmod -R 755 /root
+```
+
+* 关闭 CentOS 防火墙(如果出现： `httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName`)
+```
+service iptables stop
+```

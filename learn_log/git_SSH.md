@@ -5,7 +5,8 @@
 
 * 前提： 电脑上已安装git; 
 
-* 生成密钥 [参数说明](http://killer-jok.iteye.com/blog/1853451 ):
+* 任意目录下， 右键“git base”打开 git 命令窗口，然后输入以下指令（生成密钥 [参数说明](http://killer-jok.iteye.com/blog/1853451 )）:
+
 ```
 ssh-keygen -t rsa -C "zhiqiangxiao@sohu-inc.com"
 ```

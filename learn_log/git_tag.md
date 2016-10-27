@@ -1,7 +1,6 @@
 # git tag 指令
 * [参考资料](https://git-scm.com/docs/git-tag)
 * [参考资料2](https://www.kernel.org/pub/software/scm/git/docs/git-tag.html)
-* 本人对该指令不太熟悉，因为不常用
 
 * git标签分为两种类型：**轻量标签**和**附注标签**。**轻量标签**是指向提交对象的引用，**附注标签**则是仓库中的一个独立对象。建议使用附注标签。
 
@@ -38,4 +37,4 @@
 
 
 ## 相关指令：
-* [git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   分支相关操作指令： 欢迎分支指令新成员！
+* [git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   分支相关操作指令： 欢迎分支指令新同学！
