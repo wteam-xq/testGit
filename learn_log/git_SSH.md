@@ -82,7 +82,9 @@ cat ~/.ssh/id_rsa.pub
 ## 相关指令：
 * [git_push.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_push.md) 提交代码至远程仓库指令： 配置了SSH使用我就不用输入账号密码了！
 
-* [git_clone.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clone.md) 拉取线上代码指令： LS正解！
+* [git_clone.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clone.md) 拉取线上代码指令： LS不用输入密码的前提：使用我时用了SSH协议！
+
+![SSH协议截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_ssh_s2.png)
 
 
 

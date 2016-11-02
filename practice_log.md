@@ -170,7 +170,7 @@ forever cleanlogs
 ### 参考资料:
 [云服务器, 简称:ECS](https://www.aliyun.com/product/ecs?spm=5176.8142029.388261.25.YmiwVn) 
 
-[Linux安装nodejs](http://jingyan.baidu.com/article/f0e83a25a434ac22e4910166.html) 
+[Linux安装nodejs](http://www.cnblogs.com/hamy/p/3632574.html) 
 
 [Linux安装apache](http://blog.csdn.net/qq_28702545/article/details/52529329) ,   [CentOS apache配置详解](http://www.cnblogs.com/zgx/archive/2011/09/22/2185261.html)
 
@@ -230,12 +230,79 @@ service httpd restart
 setenforce 0
 ```
 
-* 给所有用户访问/root 权限(如果DocumentRoot在/root目录下)
+* 给所有用户访问/root/mygit 权限(如果DocumentRoot在/root/mygit目录下)
 ```
-chmod -R 755 /root
+chmod -R 755 /root/mygit 
 ```
 
 * 关闭 CentOS 防火墙(如果出现： `httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName`)
 ```
 service iptables stop
 ```
+
+--------------------------
+
+## 16_10_27 笔记:
+
+### 安装nodejs小总结：
+* 依赖模块安装：
+```
+yum -y install gcc make gcc-c++ openssl-devel wget
+```
+* 查看系统为x32 还是 x64
+```
+[root@linuxzgf ~]#uname -a
+```
+* 如果有x86_64就是64位的，没有就是32位的
+* 后面是X686或X86_64则内核是64位的，i686或i386则内核是32位的 
+
+* 到[nodejs官网](https://nodejs.org/en/download/)复制下载链接；
+
+* 下载源码及解压(/soft/nodejs为新建目录)：
+```
+cd /opt/soft/nodejs
+wget https://nodejs.org/dist/v6.9.1/node-v6.9.1-linux-x86.tar.xz
+tar -vxf node-v6.9.1-linux-x86.xz
+cd node-v6.9.1-linux-x86
+```
+
+* 编译及安装（./configure 要求Python.2.6+）：
+```
+./configure --prefix=/usr/local/nodejs
+make && make install
+
+```
+* 查看Python版本(注意是大写V)： 
+```
+python -V
+```
+
+
+* 或者 使用封装好的 脚本安装：[nvm安装](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04), [tnvm安装](https://github.com/aliyun-node/tnvm/blob/master/README.md)
+* tnvm 方式安装
+```
+cd /root
+wget -O- https://raw.githubusercontent.com/aliyun-node/tnvm/master/install.sh | bash
+source /root/.bashrc
+tnvm install node-v6.4.0
+tnvm use node-v6.4.0
+```
+
+* 验证是否安装配置成功：
+```
+node -v
+```
+
+--------------------------
+
+## 16_11_02 笔记:
+
+### 自动化部署 成熟方案：
+* [jenkins](https://jenkins.io/index.html)
+* [walle-web](http://walle-web.io/)
+* 前公司自动化上线部署方案：
+* [docker + git](http://www.tuicool.com/articles/6femE3)
+
+
+
+
