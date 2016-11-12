@@ -33,6 +33,9 @@
 ### [git_log.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md) 
 * git 查看commit日志小总结
 
+### [git_diff.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_diff.md) 
+* git 查看某一文件代码改动、对比版本代码变化总结
+
 ### [git_reset.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 
 * git 代码撤销（回退）小总结(移动HEAD木有生成新的commit)
 

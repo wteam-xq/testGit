@@ -303,6 +303,3 @@ node -v
 * 前公司自动化上线部署方案：
 * [docker + git](http://www.tuicool.com/articles/6femE3)
 
-
-
-
