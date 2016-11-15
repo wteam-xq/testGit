@@ -1,5 +1,7 @@
 # git clean 指令
-* [参考资料](https://git-scm.com/docs/git-clean)
+
+## 参考资料：
+* [git clean官方API](https://git-scm.com/docs/git-clean)
 
 * 删除 一些 没有 git add 的 文件；
 

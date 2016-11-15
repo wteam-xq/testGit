@@ -1,5 +1,7 @@
 # git revert 指令
-* [参考资料](https://git-scm.com/docs/git-revert)
+
+## 参考资料：
+* [git revert官方API](https://git-scm.com/docs/git-revert)
 
 
 ## git revert 常用指令：

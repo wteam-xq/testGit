@@ -1,6 +1,8 @@
 # git merge 指令
-* [参考资料](https://git-scm.com/docs/git-merge)
-* [参考资料2](http://blog.csdn.net/hudashi/article/details/7664382)
+
+## 参考资料
+* [git merge官方API](https://git-scm.com/docs/git-merge)
+* [git merge 简介](http://blog.csdn.net/hudashi/article/details/7664382)
 * [合并分支如何简洁](http://hungyuhei.github.io/2012/08/07/better-git-commit-graph-using-pull---rebase-and-merge---no-ff.html)
 * 关于 git merge 与 git rebase的区别请看这个[教程](http://backlogtool.com/git-guide/cn/stepup/stepup1_4.html);
 

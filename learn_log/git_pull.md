@@ -1,5 +1,8 @@
 # git pull 指令
-* [参考资料](https://git-scm.com/docs/git-pull)
+
+## 参考资料：
+* [git pull官方API](https://git-scm.com/docs/git-pull)
+
 * `git pull` 相当于 `git fetch` + `git merge`
 * git pull 默认拉取跟当前分支对应的远程分支代码；
 * git pull origin xxx(xxx 为远程分支名), 拉取指定分支代码；

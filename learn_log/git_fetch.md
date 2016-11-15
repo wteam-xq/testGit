@@ -1,6 +1,7 @@
 # git fetch 指令
-* [参考资料](https://git-scm.com/docs/git-fetch)
-* 本人对该指令不太熟悉，因为不常用
+
+## 参考资料：
+* [git fetch官方API](https://git-scm.com/docs/git-fetch)
 
 
 ## git fetch 常用指令：

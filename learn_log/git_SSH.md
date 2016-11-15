@@ -1,7 +1,7 @@
 ### git配置公钥（SSH公钥）
 
 ## win7系统：
-* [参考资料](http://git-scm.com/book/zh/ch4-3.html)
+* [官方Git生成SSH公钥教程](http://git-scm.com/book/zh/ch4-3.html)
 
 * 前提： 电脑上已安装git; 
 

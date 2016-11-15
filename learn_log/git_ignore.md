@@ -1,6 +1,8 @@
 ### git配置忽略文件
-* [参考资料](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
-* [参考资料2]（https://github.com/github/gitignore）
+
+## 参考资料：
+* [git-忽略特殊文件-廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
+* [git ignore常见工程配置-github]（https://github.com/github/gitignore）
 
 * .gitignore 配置文件用于配置不需要加入版本管理的文件，配置好该文件可以为我们的版本管理带来很大的便利，以下是个人对于配置 .gitignore 的一些心得。
 

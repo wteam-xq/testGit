@@ -1,4 +1,7 @@
-* [参考资料](https://git-scm.com/docs/git-branch)
+# git branch 指令
+
+## 参考资料：
+* [git branch官方API](https://git-scm.com/docs/git-branch)
 
 * 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(木有！) 
 
@@ -20,7 +23,12 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 	* 查看工程的分支列表（本地分支）
 
 * git branch -va 
-	* 查看远程分支列表（查看前建议 使用 git pull -p 更新下远程分支信息）
+* git branch -r
+* git branch -a
+	* 查看分支列表（查看前建议 使用 `git pull -p` 更新下远程分支信息）
+	* `-r` 只查看远程分支列表
+	* `-a` 查看远程及本地分支列表
+	* `-va` 查看详细的远程及本地分支列表
 
 * git checkout  remotes/origin/master 
 	* 切换到远程的 master 分支
@@ -29,9 +37,6 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 	* 基于当前分支创建一个叫“dev”的分支,并切换到该分支，等于以下俩指令(-b 以当前分支为基础)
 	* git branch dev   创建一叫“dev”的分支
 	* git checkout dev  切换到“dev”分支
-
-* git merge dev 
-	* 将当前分支（一般是master主分支）与叫“dev”（本地的dev分支）的分支代码合并
 
 * git branch -d dev 
 	* 将叫“dev”的本地分支删除掉

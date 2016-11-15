@@ -1,5 +1,7 @@
 # git status 指令
-* [参考资料](https://git-scm.com/docs/git-status)
+
+## 参考资料：
+* [git status官方API](https://git-scm.com/docs/git-status)
 
 * git status 指令可以带很多参数例如：指定查看忽略文件、未跟踪文件等（具体查看参考资料）， 但常用的还是默认查看完整状态信息；
 

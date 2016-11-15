@@ -1,5 +1,7 @@
 # git remote 指令
-* [参考资料](https://git-scm.com/docs/git-remote)
+
+## 参考资料：
+* [git remote官方API](https://git-scm.com/docs/git-remote)
 
 ## git remote 常用指令：
 * git remote rm origin

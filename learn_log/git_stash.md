@@ -1,6 +1,8 @@
 # git stash 指令
-* [参考资料](http://my.oschina.net/u/2298961/blog/381728)
-* [参考资料2](https://git-scm.com/docs/git-stash)
+
+## 参考资料：
+* [保存当前工作现场](http://my.oschina.net/u/2298961/blog/381728)
+* [git stash官方API](https://git-scm.com/docs/git-stash)
 * `git stash`操作之后会将 **工作区间** **暂存区间** 改动放到 **工作现场**
 * '工作现场' 是一种中文翻译， 官方的叫法是'dirty working directory'
 > Stash the changes in a dirty working directory away

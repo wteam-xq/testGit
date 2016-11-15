@@ -1,5 +1,7 @@
 # git reset 指令
-* [参考资料](https://git-scm.com/docs/git-reset)
+
+## 参考资料：
+* [git reset官方API](https://git-scm.com/docs/git-reset)
 
 * git reset 和 git revert 的区别：
 > 1. git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit。 

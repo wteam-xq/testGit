@@ -1,5 +1,7 @@
 # git log 指令
-* [参考资料](https://git-scm.com/docs/git-log)
+
+## 参考资料：
+* [git log官方API](https://git-scm.com/docs/git-log)
 
 ## git log 常用指令：
 * git log

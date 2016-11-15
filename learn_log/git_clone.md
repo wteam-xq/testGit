@@ -1,5 +1,7 @@
 # git clone 指令
-* [参考资料](https://git-scm.com/docs/git-clone)
+
+## 参考资料：
+* [git clone官方API](https://git-scm.com/docs/git-clone)
 
 * git clone 加参数可下载指定分支代码、指定目录等；
 * 但 git clone 需要注意的还是使用HTTP HTTPS SSH GIT 本地文件协议等 多种协议 下载的区别： 

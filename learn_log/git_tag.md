@@ -1,6 +1,8 @@
 # git tag 指令
-* [参考资料](https://git-scm.com/docs/git-tag)
-* [参考资料2](https://www.kernel.org/pub/software/scm/git/docs/git-tag.html)
+
+## 参考教程：
+* [git tag官方API](https://git-scm.com/docs/git-tag)
+* [git tag官方HELP](https://www.kernel.org/pub/software/scm/git/docs/git-tag.html)
 
 * git标签分为两种类型：**轻量标签**和**附注标签**。**轻量标签**是指向提交对象的引用，**附注标签**则是仓库中的一个独立对象。建议使用附注标签。
 

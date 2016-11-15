@@ -1,6 +1,8 @@
 # git config 指令
-* [参考资料](https://git-scm.com/docs/git-config)
-* [参考资料2](http://blog.csdn.net/zxncvb/article/details/22153019)
+
+## 参考资料：
+* [git config官方API](https://git-scm.com/docs/git-config)
+* [git config命令使用-joey](http://blog.csdn.net/zxncvb/article/details/22153019)
 
 * config 后参数： `--local` `--global`  `--system`
 	* `—-local`   当前工程对应的配置文件（仓库级config）

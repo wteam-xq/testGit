@@ -1,5 +1,7 @@
 # git add 指令
-* [参考资料](https://git-scm.com/docs/git-add)
+
+## 参考资料：
+* [git add官方API](https://git-scm.com/docs/git-add)
 
 ## git add 常用指令： 
 * git add a.txt
