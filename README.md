@@ -5,4 +5,5 @@
 
 * 但工程中的学习日志： learn_log文件夹内容或许有用！
 
+* 本分支的改动， 本地其他分支（例如在master）执行`git fetch --all`，本地的同名分支（testBranch）会更新到改动么？
 
