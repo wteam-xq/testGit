@@ -44,3 +44,5 @@
 
 ### [git_remote.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_remote.md)   
 * git 本地仓库与远程仓库连接操作小总结
+
+## 该分支的修改， 本地其他分支下 `git fetch --all` 会更新到么？
