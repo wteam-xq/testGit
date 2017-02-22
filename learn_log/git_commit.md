@@ -4,7 +4,7 @@
 * [git commit官方HELP](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
 * [git commit官方API](https://git-scm.com/docs/git-commit)
 
-
+## 实践总结：
 * `git commit -am` 相当于`git commit -a -m`
 * `git commit -a`
 	* Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
@@ -14,7 +14,7 @@
 	* 该指令将暂存区的改动放入本地仓库（当前分支），如果使用了多个“-m”则会将该提交分成多个段落显示；例如： 使用了`git commit -m "格式统一化" -m "多个注释会怎样？"` gitHub上会这样显示：
 	* ![多行-m的截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_commit_s1.png)
 
-## git commit 常用指令： 
+## git commit 常用指令：
 * git commit -am "注释内容"
   * 将 **工作区** 以及 **暂存区** 代码放入 **本地仓库**（不包括**工作区**新建的文件）
   * `git add -A`将所有 **工作区** 代码放入 **暂存区**（包括**新建**的文件）

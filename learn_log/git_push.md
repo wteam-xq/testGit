@@ -4,6 +4,7 @@
 * [git push官方API](https://git-scm.com/docs/git-push)
 * [git push 日常指令-Git教程](http://www.yiibai.com/git/git_push.html)
 
+## 实践总结：
 * git push <远程主机名> <本地分支名>:<远程分支名>
 * 如果当前分支与远程分支之间存在追踪关系，则本地分支和远程分支都可以省略。
 * `git push origin`
@@ -19,7 +20,7 @@
 	* 推送代码至指定的远程分支
 
 * git push origin newBranch:newBranch
-	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支，线上没有的那种
+	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支名，远程不存在同名分支
 
 * git push origin --delete [branch-name]
   * 删除远程分支
