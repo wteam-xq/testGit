@@ -2,9 +2,10 @@
 
 ## 参考资料：
 * [git checkout官方API](https://git-scm.com/docs/git-checkout)
-* [git-修改撤销-廖雪峰]（http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374831943254ee90db11b13d4ba9a73b9047f4fb968d000）
+* [git-修改撤销-廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374831943254ee90db11b13d4ba9a73b9047f4fb968d000)
 * [git checkout详解](http://www.tuicool.com/articles/A3Mn6f)
 
+## 实践总结：
 * `git checkout` 的使用可以很复杂（具体用法，请打开以上参考资料）， 但日常生产中常用的有：
 	* 1. 回退文件；（从暂存区、从本地仓库）
 	* 2. 切换分支（包括新建、切换）；

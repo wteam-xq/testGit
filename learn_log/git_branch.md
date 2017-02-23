@@ -3,6 +3,7 @@
 ## 参考资料：
 * [git branch官方API](https://git-scm.com/docs/git-branch)
 
+## 实践总结：
 * 本地新分支提交时指定远程创建新分支， 成功后这两个分支是否有关联？(木有！)
 
 * 本地、远程两同名分支， 如果本地首次提交 git push 到该同名分支后， 这两分支是否就建立了关联？(木有！)
@@ -55,11 +56,11 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 ## 实践场景：
 * 本地新建的分支， 分支代码已经合并到主分支（master），然后误删了， 怎么根据提交commit恢复该分支？
 * 使用 `git log -g`找回被误删分支之前提交的commit（如果找不到， 可以试试`git reflog`）, 拷贝commitId;
-* 使用 `git branch branchName 3eac14d`(branchName为分知名、3eac14d为 commitId)， 基于当时的commit创建一个新分支；
+* 使用 `git branch branchName 3eac14d`(branchName为分支名、3eac14d为 commitId)， 基于当时的commit创建一个新分支；
 * 切换到该新分支`git checkout branchName`查看代码， 就会发现该分支恢复了。
 
 ## 相关指令：
-* [git_checkout.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md)  切换代码分支指令：使用git分支必定会用到的指令！
+* [git_checkout.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_checkout.md)  切换代码分支指令：使用git分支必定会用到我！
 
 * [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md) 合并分支指令：注意我合并的是**本地分支** 代码;
 
