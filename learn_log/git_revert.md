@@ -6,7 +6,7 @@
 
 ## git revert 常用指令：
 * git revert HEAD
-	* 删除本地的一个commit;(最前的一个commit将被删除，并且生成一个新的commit)
+	* 撤销前一次的commit;(生成一个新的commit ， 该commit与前前次的commit相同)
 
 
 ## 相关指令：

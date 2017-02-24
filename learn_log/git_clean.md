@@ -3,9 +3,11 @@
 ## 参考资料：
 * [git clean官方API](https://git-scm.com/docs/git-clean)
 
-* 删除 一些 没有 git add 的 文件；
+## 实践总结：
+* git clean 删除 一些 没有 git add 的文件(git未跟踪的文件)；
+* 同 git diff， 建议在可视化工具中操作删除未跟踪文件；（更加直观且不易出错）
 
-## git reset 常用指令： 
+## git reset 常用指令：
 * git clean -n
 	* 显示 将要 删除的 文件 和  目录;
 
