@@ -17,7 +17,7 @@
 * git merge --no-ff branchName
 	* 将当前分支 与 **本地** 叫“branchName”分支的代码合并（branchName代码合并到当前分支）,并且显示合并细节，具体表现在 提交线路图会出现交叉线；
 
-# git merge 工作中碰到的问题重现：
+# 实践场景：
 * 1.分支testMerge 是基于master的分支；此时将master的代码备份下；
 * 2.分支testMerge 分别修改两次， 然后改完都合并到master;master 提交该改动；
 * 3.将1中master备份的代码覆盖master， 然后提交代码；

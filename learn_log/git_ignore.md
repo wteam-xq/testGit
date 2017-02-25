@@ -2,8 +2,9 @@
 
 ## 参考资料：
 * [git-忽略特殊文件-廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
-* [git ignore常见工程配置-github]（https://github.com/github/gitignore）
+* [git ignore常见工程配置-github](https://github.com/github/gitignore)
 
+## 实践总结：
 * .gitignore 配置文件用于配置不需要加入版本管理的文件，配置好该文件可以为我们的版本管理带来很大的便利，以下是个人对于配置 .gitignore 的一些心得。
 
 * 1、配置语法：
@@ -36,10 +37,7 @@
 	```
 	* 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；
 
-## 相关指令：
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 我是万能的检测器！
-
-## 实践问题：
+## 实践场景：
 * 利用.gitignore过滤文件，如编译过程中的中间文件，等等，这些文件不需要被追踪管理。
 
 * 现象：
@@ -57,3 +55,6 @@
 * 需要[在git库中删除该文件](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758392816224cafd33c44b4451887cc941e6716805c000)，并更新。
 
 * 然后再次git status查看状态，file1文件不再显示状态。
+
+## 相关指令：
+* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 我是万能的检测器！

@@ -60,6 +60,9 @@
 ### [git_clean.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_clean.md)   
 * git 清除未跟踪代码、文件夹 小总结
 
+### [git_rm.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_rm.md)   
+* git 删除文件（文件夹）指令 小总结
+
 
 ## git 其他：
 ### [git_ignore.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_ignore.md)   

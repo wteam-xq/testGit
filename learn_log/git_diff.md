@@ -6,7 +6,7 @@
 * [比较提交 - Git Diff](http://gitbook.liuhui998.com/3_5.html)
 
 ## 实践总结：
-* 实际开发很少使用这个指令， 因为git的可视化工具显示的效果更好；
+* 实际开发很少使用这个指令， 因为git的可视化工具（如：sourceTree/TortoiseGit）显示的效果更好；（更加直观且不易出错）
 ![git_diff截图](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_diff_s1.png)
 
 ## git diff 常用指令：
