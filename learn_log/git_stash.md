@@ -29,8 +29,9 @@
 	* 删除某一个工作现场，默认删除最新工作现场：`git stash drop` = `git stash drop stash@{0}`
 
 * git stash pop
+* git stash pop stash@{0}
 * git stash pop --index stash@{0}
-	* 恢复工作现场的代码（并删除），默认恢复最新工作现场：`git stash pop` = `git stash pop --index stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区;
+	* 恢复工作现场的代码（并删除），默认恢复最新工作现场：`git stash pop` = `git stash pop stash@{0}`, --index 参数：不仅恢复工作区，还恢复暂存区;
 
 * git stash apply
 * git stash apply --index stash@{0}

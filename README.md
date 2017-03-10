@@ -74,3 +74,8 @@
 
 ### [git 上线自动化部署](https://github.com/wteam-xq/testGit/blob/master/practice_log.md)
 * git 进阶 自动化上线研究
+
+## 友情链接：
+* [git常用指令排行榜](http://www.kancloud.cn/wteamxq/git_rank/276484)
+* [git图解：代码区域总结](https://zhuanlan.zhihu.com/p/20175919)
+* [git图解（2）：代码回退](https://zhuanlan.zhihu.com/p/22734098)
