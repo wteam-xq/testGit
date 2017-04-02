@@ -71,9 +71,11 @@
 ### [git_SSH.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_SSH.md)   
 * git 配置SSH小总结
 
-
 ### [git 上线自动化部署](https://github.com/wteam-xq/testGit/blob/master/practice_log.md)
 * git 进阶 自动化上线研究
+
+### [git_tips.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_tips.md)   
+* git 使用小建议
 
 ## 友情链接：
 * [git常用指令排行榜](http://www.kancloud.cn/wteamxq/git_rank/276484)
