@@ -30,3 +30,5 @@
 * [git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   分支相关操作指令： 跟`git merge`有关的也就我这个指令吧？
 
 * [git_pull.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_pull.md) 更新、合并指令： 这个指令是我小弟，合并分支直接找我就行！
+
+* [git_rebase.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_rebase.md) 合并其他分支代码指令： 其实我也可以合并其他分支代码的！
