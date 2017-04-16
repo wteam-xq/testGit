@@ -20,6 +20,7 @@
 	* 推送代码至指定的远程分支
 
 * git push origin newBranch:newBranch
+	* git push <远程主机名> <本地分支名>:<远程分支名>
 	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支名，远程不存在同名分支
 
 * git push origin --delete [branch-name]
