@@ -13,6 +13,9 @@
 * git log --pretty=oneline
 	* 简短形式显示 commit 提交历史；(只显示每一次commit的id以及注释)
 
+* git log --oneline --graph --decorate
+	* 简短形式显示当前分支提交记录以及源分支信息（查看当前分支是基于哪个分支创建）；
+
 * git reflog
 	* 查看本地仓库所有改变列表（git reset的每次操作都会记录在该列表）
 
