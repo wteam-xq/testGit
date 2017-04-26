@@ -39,10 +39,10 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 	* git checkout dev  切换到“dev”分支
 
 * git branch -d dev
-	* 将叫“dev”的本地分支删除掉
+	* 将叫“dev”的本地分支删除掉（如果该分支代码未合并到其他分支，将无法删除）
 
 * git branch -D dev
-	* 将叫“dev”的本地分支删除掉（强制删除，即使该删除的分支有未提交代码）
+	* 将叫“dev”的本地分支删除掉（强制删除，即使该删除的分支有未合并代码）
 
 * git branch -dr [origin/branch]
   * 相当于 `git branch -r -d origin/branch`删除的只是本地的缓存分支（`git branch -va`查看的那个），`git pull -p`可恢复；
