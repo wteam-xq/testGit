@@ -15,6 +15,11 @@
 * git rebase --abort
 	* 如果当前分支 跟 待合并的分支有冲突， 可以使用该指令取消`git rebase branchName`指令；（不想取消且你有足够耐心：可使用`git rebase --continue`和`git rebase --skip`手动一步一步完成代码合并，当然没`git merge branchName`来的有效率）
 
+* git rebase master newBranch
+	* 将`newBranch`分支代码变基到`master`分支；相当于`git checkout newBranch` + `git rebase master`;
+	* PS: `变基`都是在默认分支上操作，用法上比`git merge`复杂， 例如将`newBranch`分支代码合并到`master`；
+	* `git merge` 是切换到`master`分支然后合并：`git checkout master` + `git merge newBranch`;
+	* `git rebase` 是切换到`newBranch`然后变基到`master`分支,完成后再将两分支合并： `git checkout newBranch` + `git rebase master` + `git checkout master` + `git merge newBranch`;
 
 ## 相关指令：
 * [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md) 合并其他分支代码： 我使用的频率更高一些哦！

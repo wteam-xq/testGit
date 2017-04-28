@@ -31,6 +31,8 @@
 
 * git checkout -b dev
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；如果创建的分支名已存在会报错， 如参数换成`-B`则不会报错， 因为会将原同名分支覆盖掉（谨慎使用）；
+* git checkout -b newBranch origin newBranch
+	* 基于当前分支创建一名为`newBranch`的分支，并切换过去且关联远程同名分支；相当于`git checkout -b newBranch` + `git branch --set-upstream-to=origin/newBranch newBranch`
 
 * git checkout --orphan dev
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；假如你的某个分支上，积累了无数次的提交，你也懒得去打理，打印出的log也让你无力吐槽，那么这个命令将是你的神器，它会基于当前所在分支新建一个赤裸裸的分支，没有任何的提交历史，但是当前分支的内容一一俱全。

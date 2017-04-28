@@ -14,7 +14,7 @@
 
 * 如果希望本地分支与远程分支建立关联可使用:
 ```
-git branch --set-upstream-to=origin/remoteBranchName localBranchName`
+git branch --set-upstream-to=origin/remoteBranchName localBranchName
 
 ```
 
