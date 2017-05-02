@@ -22,6 +22,9 @@
 * git commit -m "注释内容"
   * 将 **暂存区** 代码放入 **本地仓库**
 
+* git commit --amend
+	* 将 **暂存区** 内容再次提交到 **本地仓库** ，该改动会添加到前一次`commit`中(不产生新的`commit`)；指令执行完将进入 vi 编辑新commit注释界面；(执行该指令前注意先执行`git add -A`)
+
 ## 相关指令：
 * [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 提交代码到**本地仓库**后， 用我可以查看有多少个commit等待提交到远程哦！
 
