@@ -23,5 +23,11 @@
 * git config —global -e  
 	* 直接编辑 配置文件文本；
 
+* git config --global alias.co checkout
+* git config --global alias.br branch
+* git config --global alias.ci commit
+* git config --global alias.st status
+	* 设置Git别名（快捷指令）
+
 ## 相关指令：
 * [git remote](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_remote.md) 本地仓库与远程仓库连接配置指令： 我两才是git指令权限最高拥有者，主宰那帮渣渣指令！
