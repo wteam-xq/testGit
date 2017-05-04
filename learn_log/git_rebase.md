@@ -21,5 +21,8 @@
 	* `git merge` 是切换到`master`分支然后合并：`git checkout master` + `git merge newBranch`;
 	* `git rebase` 是切换到`newBranch`然后变基到`master`分支,完成后再将两分支合并： `git checkout newBranch` + `git rebase master` + `git checkout master` + `git merge newBranch`;
 
+* git rebase -i
+	* 编辑本地未`push`的`commit`（本人多用于合并commit）, 注意： 该指令需要 当前分支有 关联的 远程分支；
+
 ## 相关指令：
 * [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md) 合并其他分支代码： 我使用的频率更高一些哦！
