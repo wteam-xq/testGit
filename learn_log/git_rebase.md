@@ -12,7 +12,7 @@
 * `git merge` 是切换到`master`分支然后合并：`git checkout master` + `git merge experiment`:
 ![git_merge整合分支](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_rebase_s2.png)
 
-* `git rebase` 是切换到`experiment`然后变基到`master`分支,完成后再将两分支合并： `git checkout experiment` + `git rebase master` + `git checkout master` + `git merge experiment`:
+* `git rebase` 是切换到`experiment`然后变基到`master`分支,完成后,切换回`master`再将两分支合并： `git checkout experiment` + `git rebase master` + `git checkout master` + `git merge experiment`:
 ![git_rebase整合分支_1](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_rebase_s3.png)
 ![git_rebase整合分支_2](https://github.com/wteam-xq/testGit/blob/master/learn_log/log_img/git_rebase_s4.png)
 
