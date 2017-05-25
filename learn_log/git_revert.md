@@ -6,7 +6,18 @@
 
 ## git revert 常用指令：
 * git revert HEAD
-	* 撤销前一次的commit;(生成一个新的commit ， 该commit与前前次的commit相同)
+	* 回退到上一次的commit;(会生成一新的commit, 执行成功将出现vi编辑界面，编辑新提交的注释)
+
+* git revert HEAD^
+* git revert HEAD~1
+	* 回退到前前一次的commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
+
+* git revert HEAD^^
+* git revert HEAD~2
+	* 回退到前三次的commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
+
+* git revert commitId(032c6df2ad8469fdb5235ce30f968474bd3bce01)
+	* 回退到指定commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
 
 
 ## 相关指令：
