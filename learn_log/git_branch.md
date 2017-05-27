@@ -50,7 +50,7 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName
 * git push origin --delete [branch-name]
  	* 删除指定的远程分支（真正删除远程分支，需要当前账号的权限操作）
 
-* git log —graph  
+* git log --graph  
 	* 查看分支合并情况（图方式显示）
 
 ## 实践场景：
