@@ -26,6 +26,8 @@
 
 * 2016-11-17 git 场景： 代码已 commit 到本地仓库， 处理掉该 commit , 且让改动 的文件出现在  工作区；
 * 2016-12-04 git 场景： 本地新建的分支， 分支代码已经合并到主分支（master），然后误删了， 怎么根据提交commit恢复该分支；
+* 2017-06-14  git可以将任意分支代码， 导出生成压缩包（zip或gz压缩）
+* git archive master --prefix='project/' --format=zip > `git describe master`.zip;
 
 ### 维护日志：
 * 本项目内容将使用**git book**导出。
