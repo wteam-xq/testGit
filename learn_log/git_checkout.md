@@ -37,5 +37,11 @@
 * git checkout --orphan dev
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；假如你的某个分支上，积累了无数次的提交，你也懒得去打理，打印出的log也让你无力吐槽，那么这个命令将是你的神器，它会基于当前所在分支新建一个赤裸裸的分支，没有任何的提交历史，但是当前分支的内容一一俱全。
 
+* git checkout 0d1d7fc32
+	* 0d1d7fc32为commitId, 代码处于 detached 状态， 提交commit 会新生成一个分支（临时分支）；
+* git checkout -b old-branch-name 0d1d7fc32
+	* 相当于 `git branch old-branch-name 0d1d7fc32` + `git checkout old-branch-name` 基于当时的commit恢复分支；（old-branch-name已被删除，且0d1d7fc32为old-branch-name分支上的提交）
+
+
 ## 相关指令：
 * [git reset](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）： 配合`git log`，我的回退实用性可以完爆`git checkout`;

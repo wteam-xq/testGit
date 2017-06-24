@@ -18,9 +18,11 @@
 * git revert HEAD~2
 	* 撤销前三次的commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
 
-* git revert commitId(032c6df2ad8469fdb5235ce30f968474bd3bce01)
-	* 撤销指定commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
+* git revert 0d1d7fc32
+	* 0d1d7fc32为commitId, 撤销指定commit;(可能会出现冲突，需要解决冲突然后`git add` + `git commit`生成新的`commit`)
 
+* git revert -m 1 0d1d7fc32
+	* 0d1d7fc32为合并分支的commitId,回退merge操作;
 
 ## 相关指令：
 * [git reset的区别](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_reset.md) 代码撤销（回退）指令： 我跟`git revert`不止长的像，实现的功能也差不多！
