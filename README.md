@@ -84,6 +84,4 @@
 * [git常用指令排行榜](http://www.kancloud.cn/wteamxq/git_rank/276484)
 * [git图解：代码区域总结](https://zhuanlan.zhihu.com/p/20175919)
 * [git图解（2）：代码回退](https://zhuanlan.zhihu.com/p/22734098)
-
-* master修改了这行代码；有点不同！
-* newBranch 上修改了代码;
+* [git图解（3）：分支操作](https://zhuanlan.zhihu.com/p/25426071)
