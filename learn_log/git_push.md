@@ -26,6 +26,10 @@
 * git push origin --delete [branch-name]
   * 删除远程分支
 
+* git push -u origin remoteBranchName
+* 远程仓库为空（不存在分支）时，首次提交代码使用；
+* 另，使用git push -u origin master以后就可以直接使用不带别的参数的git pull从之前push到的分支来pull。
+
 
 ## 相关指令：
 * [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认提交远程是否成功而已。。。
