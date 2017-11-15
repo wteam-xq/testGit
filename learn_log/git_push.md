@@ -27,8 +27,8 @@
   * 删除远程分支
 
 * git push -u origin remoteBranchName
-* 远程仓库为空（不存在分支）时，首次提交代码使用；
-* 另，使用git push -u origin master以后就可以直接使用不带别的参数的git pull从之前push到的分支来pull。
+  * 远程仓库为空（不存在分支）时，首次提交代码使用；
+  * 另，使用git push -u origin master以后就可以直接使用不带别的参数的git pull从之前push到的分支来pull。
 
 
 ## 相关指令：

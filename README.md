@@ -39,6 +39,9 @@
 ### [git_revert.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_revert.md)   
 * git 代码撤销（回退）小总结(撤销某次commit的改动，生成一个新的commit)
 
+### [git_init.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_init.md)
+* git 创建空git工程或重新初始化git工程小总结
+
 ### [git_diff.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_diff.md)
 * git 查看某一文件代码改动、对比版本代码变化总结
 
