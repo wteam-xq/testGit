@@ -14,6 +14,8 @@
 
 * git rm -r testFolder
 	* 删除文件夹testFolder，如该文件夹已在**暂存区**则需加`-f`参数才能删除。
+* git rm -r --cached file_path
+    * 当某一文件（文件夹）已经被 git 跟踪， 然后在.gitignore 中配置忽略该文件（文件夹）， 配置后不生效使用该指令解决。
 
 * git rm -f test.txt
     * 强行移除修改后文件(从暂存区和工作区中删除)

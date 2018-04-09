@@ -31,6 +31,7 @@
 git archive master --prefix='project/' --format=zip > `git describe master`.zip
 
 ```
+* 2018-04-09 新增git提交规范， 后续git提交注释全英文且有提交类型；
 
 ### 维护日志：
 * 本项目内容将使用**git book**导出。

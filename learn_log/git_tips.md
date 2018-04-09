@@ -22,4 +22,22 @@
 
 * 线上小改动可以不用远程创建分支，直接基于本地的线上分支:切换到master分支并更新最新代码`git pull`, 开新分支:'git checkout -b xxx-fix', 修改完成合并到线上分支(master)跟开发分支(develop)即可：`git merge xxx-fix`；
 
-* 为了减少分支代码间的冲突， 不要在 线上分支（master） 跟 开发分支(develop)  上写代码；（即使是微小改动也交由master新开的分支上进行）
+
+#### 提交注释规范
+* 用于说明 commit 的类别，只允许使用下面7个标识（type）。
+
+* feat：新功能（feature）
+
+* fix：修补bug
+
+* docs：文档（documentation）
+
+* style： 格式（不影响代码运行的变动）
+
+* refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+
+* test：增加测试
+
+* chore：构建过程或辅助工具的变动
+
+* 例如： 本次提交修改了文档： `git commit -m "docs: update git_rm.md"`
