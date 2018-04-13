@@ -29,5 +29,23 @@
 * git config --global alias.st status
 	* 设置Git别名（快捷指令）
 
+* git config --global credential.helper store
+	* 如果使用 HTTP 协议方式，每次提交代码都需要密码很麻烦， 可以配置免密：
+	* 1）新建文件并保存密码
+	```bash
+	$ touch ~/.git-credentials
+	$ vim ~/.git-credentials
+	```
+	* 2）添加内容
+	```bash
+	https://{username}:{passwd}@github.com
+	```
+	* 3）添加git配置
+	```bash
+	$ git config --global credential.helper store
+	```
+	* [官方：Git 工具 - 凭证存储](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+	* [官方：Git 工具 - 凭证存储-中文](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%87%AD%E8%AF%81%E5%AD%98%E5%82%A8)
+
 ## 相关指令：
 * [git remote](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_remote.md) 本地仓库与远程仓库连接配置指令： 我两才是git指令权限最高拥有者！
