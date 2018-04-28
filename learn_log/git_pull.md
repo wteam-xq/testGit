@@ -28,6 +28,9 @@ git branch --set-upstream-to=origin/<branch> localBranchName
 
 * git pull -p
 	* 更新远程分支信息，本指令相当于`git fetch --prune origin` 或 `git fetch -p`例如：远程删除或新增了新的分支， 本地git branch -va因为缓存看到的并不是最新分支信息，用该指令就能与远程分支列表保持一致；
+
+* git pull origin master --allow-unrelated-histories
+	* 把本地一个写了很久的仓库上传gitee(github,gitlab)远程仓库，而远程分支不是一个空项目，此时相当于两个不同项目合并，本地合并两个不同的项目;
 	
 ## 相关指令：
 * [git fetch](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_fetch.md)  更新代码（不合并本地修改）指令： 虽然大师说[少用git pull多用git fetch](http://www.oschina.net/translate/git-fetch-and-merge)， 实际上大家还是只用`git pull`忘了有我这个`git fetch`;

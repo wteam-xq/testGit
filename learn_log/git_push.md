@@ -20,15 +20,17 @@
 	* 推送代码至指定的远程分支
 
 * git push origin newBranch:newBranch
-	* git push <远程主机名> <本地分支名>:<远程分支名>
-	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支名，远程不存在同名分支
+* git push -u origin newBranch:newBranch
+	* git push [-u] <远程主机名> <本地分支名>:<远程分支名>
+	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支名，远程不存在同名分支;
+	* `-u` 同时将本地分支、远程分支关联；
 
 * git push origin --delete [branch-name]
   * 删除远程分支
 
 * git push -u origin remoteBranchName
   * 远程仓库为空（不存在分支）时，首次提交代码使用；
-  * 另，使用git push -u origin master以后就可以直接使用不带别的参数的git pull从之前push到的分支来pull。
+  * `-u` 将当前分支与 指定的远程分支 `remoteBranchName` 关联，后续`git pull`,`git push`就不用写远程分支名了。
 
 
 ## 相关指令：
