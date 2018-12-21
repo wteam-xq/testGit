@@ -2,6 +2,7 @@
 
 ## 参考资料：
 * [git cherry-pick官方API](https://git-scm.com/docs/git-cherry-pick)
+* [git cherry-pick的使用](https://blog.csdn.net/fightfightfight/article/details/81039050)
 
 ## 实践总结：
 * `git cherry-pick` 将其他分支的commit对应的改动添加到当前分支, 当然其他分支的代码不会受到影响；

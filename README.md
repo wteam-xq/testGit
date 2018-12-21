@@ -30,6 +30,9 @@
 ### [git_merge.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_merge.md)   
 * git 合并分支代码小总结
 
+### [git_cherry-pick.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_cherry-pick.md)   
+* git 迁移commit指令 小总结
+
 ### [git_log.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_log.md)
 * git 查看commit日志小总结
 
@@ -65,9 +68,6 @@
 
 ### [git_rm.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_rm.md)   
 * git 删除文件（文件夹）指令 小总结
-
-### [git_cherry-pick.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_cherry-pick.md)   
-* git 迁移commit指令 小总结
 
 
 ## git 其他：
