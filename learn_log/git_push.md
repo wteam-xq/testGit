@@ -26,7 +26,7 @@
 	* `-u` 同时将本地分支、远程分支关联；
 
 * git push origin --delete [branch-name]
-  * 删除远程分支
+  * 删除远程分支，也可以用`git push origin :branch-name`(注意冒号前的空格)这种无厘头的语法删除；
 
 * git push -u origin remoteBranchName
   * 远程仓库为空（不存在分支）时，首次提交代码使用；
