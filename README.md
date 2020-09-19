@@ -88,3 +88,8 @@
 * [git图解：代码区域总结](https://zhuanlan.zhihu.com/p/20175919)
 * [git图解（2）：代码回退](https://zhuanlan.zhihu.com/p/22734098)
 * [git图解（3）：分支操作](https://zhuanlan.zhihu.com/p/25426071)
+* [一张脑图带你掌握Git命令](https://juejin.im/post/6869519303864123399?utm_source=gold_browser_extension)
+
+## git 快捷键
+* [安装ohmyzsh](https://www.cnblogs.com/monsterdev/p/11166720.html)
+* [git 简化指令插件](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/)
