@@ -23,6 +23,9 @@
 * git config —global -e  
 	* 直接编辑 配置文件文本；
 
+* git config core.ignorecase false
+	* 设置git大小写敏感
+
 * git config --global alias.co checkout
 * git config --global alias.br branch
 * git config --global alias.ci commit
